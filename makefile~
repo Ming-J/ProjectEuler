@@ -1,0 +1,8 @@
+main: pro5.o
+	g++ -o main pro5.o
+
+pro5.o: pro5.cpp
+	g++ -c pro5.cpp
+
+clean:
+	rm *.*~
