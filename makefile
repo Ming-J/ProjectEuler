@@ -1,8 +1,8 @@
-main: proj6.o
-	g++ -o main proj6.o
+main: pro7.o
+	g++ -o main pro7.o
 
-proj6.o: proj6.cpp
-	g++ -c proj6.cpp
+proj6.o: pro7.cpp
+	g++ -c pro7.cpp
 
 clean:
 	rm *.*~
